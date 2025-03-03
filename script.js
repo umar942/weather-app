@@ -26,7 +26,7 @@ async function getWeatherData(cityValue) {
 
     const temperature = Math.round(data.main.temp);
 
-    const description = data.weather[0].description;
+    const description = data.weather[0].description; 
 
     const icon = data.weather[0].icon;
 
